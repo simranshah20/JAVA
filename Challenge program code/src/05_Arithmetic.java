@@ -3,6 +3,7 @@ import java.util.Scanner;
 class Arithmetic {
     public static void main(String[] args) {
         System.out.println("\n......Arithmetic Calculator.......\n");
+
         Scanner sc=new Scanner(System.in);
         System.out.print("\nEnter your 1st number: ");
         int a=sc.nextInt();
