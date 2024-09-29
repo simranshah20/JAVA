@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class addTwoNumbers {
+class AddTwoNumbers {
     public static void main(String[] args) {
         System.out.println("Addition of two numbers ");
         System.out.print("Enter Your first Number: ");
