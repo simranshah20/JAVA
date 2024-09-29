@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class AreaOfTraingle {
     public static void main(String[] args) {
-        System.out.println("\n......Perimeter of rectangle.......\n");
+        System.out.println("\n......Area of Triangle.......\n");
 
         Scanner sc=new Scanner(System.in);
         System.out.print("\nEnter Base of Triangle in cms: ");
