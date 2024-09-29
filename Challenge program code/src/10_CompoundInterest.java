@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class CompoundInterest {
     public static void main(String[] args) {
-        System.out.println("\n......Simple Interest.......\n");
+        System.out.println("\n......Compound Interest.......\n");
 
         Scanner sc = new Scanner(System.in);
         System.out.print("\nPlease enter your Principle amount Rs: ");
