@@ -8,7 +8,7 @@ class FahrenheitToCelsius {
         System.out.print("Enter Your Temperature in F: ");
         float fah=sc.nextFloat();
 
-        float cel=((fah-32)*5)/9;
+        float cel=((fah-32)*5.0f)/9.0f;
 
         System.out.println("your Temperature in Celsius is: "+cel+" c ");
     }
