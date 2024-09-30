@@ -9,11 +9,11 @@ class ChecksNumber {
         int num=input.nextInt();
 
         if(num>0){  //checks number is positive
-            System.out.println(num+" is positive number.");
+            System.out.println("Your number is positive number.");
         }else if(num==0){  //checks number is zero
-            System.out.println(num+" is zero.");
+            System.out.println("Your number is zero.");
         }else{
-            System.out.println(num+" is negative number.");
+            System.out.println("Your number is negative number.");
         }
     }
 }
