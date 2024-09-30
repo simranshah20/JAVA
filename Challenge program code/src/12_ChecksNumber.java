@@ -8,9 +8,9 @@ class ChecksNumber {
         System.out.print("Enter a Number: ");
         int num=input.nextInt();
 
-        if(num>0){
+        if(num>0){  //checks number is positive
             System.out.println(num+" is positive number.");
-        }else if(num==0){
+        }else if(num==0){  //checks number is zero
             System.out.println(num+" is zero.");
         }else{
             System.out.println(num+" is negative number.");
