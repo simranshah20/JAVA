@@ -1,5 +1,6 @@
 class parametersInMethod{
     public static void main(String[] args) {
+
     int num=sumTwoNumbers(4,5);   //here we are passing the values i.e 4 abd 5 which    are arguments
         System.out.println("Sum of Two Numbers are: "+num);
 
@@ -12,6 +13,7 @@ class parametersInMethod{
     public static int sumTwoNumbers(int a,int b){   //here we are declaring a nd b which are parameters
         System.out.println("First Number received is: "+a);
         System.out.println("Second Number received is: "+b);
+
         int sum =a+b;
         return sum;
     }
