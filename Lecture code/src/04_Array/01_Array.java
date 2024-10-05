@@ -16,6 +16,9 @@ class Array{
 
         System.out.println("\nArray using Loop:");
         arrayUsingLoop();
+
+        System.out.println("\nStrings in array:");
+        arrayForString();
     }
     public static void arrayUsingLoop(){
         //Array traversal
@@ -25,5 +28,17 @@ class Array{
             System.out.print(myArr[index]+"\t");
                 index++;     //Update
         }
+    }
+
+    public static void arrayForString(){
+        String strArr[]=new String[5];
+        strArr[0]="Helllo";
+        strArr[1]="Everyone";
+        System.out.println(strArr[0]+"\t"+strArr[1]);
+        System.out.println("Size of an array is: "+strArr.length);
+
+        //another way of initializing array
+        String myString[]={"How are you?","I am Simran Shah"};
+        System.out.println("\nsize of  an array is: "+myString.length);
     }
 }
