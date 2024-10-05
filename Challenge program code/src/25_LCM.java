@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class LCM {
     public static void main(String[] args) {
-        System.out.println("\n...........Lowest Common Factor............\n");
+        System.out.println("\n...........Lowest Common Multiplier............\n");
 
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter your 1st number Digit: ");
