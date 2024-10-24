@@ -19,6 +19,30 @@ public class ArrayUtility {
         return number;  // Return the populated array
     }
 
+    // Method to take input from the user and create 2D array
+    public static int[][] input2DArray() {
+        Scanner input = new Scanner(System.in);   // Create a Scanner object to take user input
+        System.out.print("Please enter the number of rows: ");
+        int rows = input.nextInt();
+        System.out.print("Please enter the number of columns: ");
+        int cols = input.nextInt();
+        int number[][] = new int[rows][cols];
+
+        int i = 0;   // Initialize a counter for array index
+        // Loop to take input for each element of the array
+        while (i < rows) {
+            int j = 0;
+            while(j < cols){
+                System.out.print("Enter the row: " + (i + 1) + " and column: " + (j+1) + " : ");
+                number[i][j] = input.nextInt();  // Store the entered value in the array
+                j++;
+            }
+
+            i++;  // Increment the counter to move to the next element
+        }
+        return number;  // Return the populated array
+    }
+
     // Method to display the elements of the array
     public static void displayArray(int num[]) {
         int i = 0;  // Initialize a counter for array index
