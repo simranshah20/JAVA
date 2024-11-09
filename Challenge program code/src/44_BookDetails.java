@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Book {
     // Static variable to keep track of total number of books
     static int totalNoOfBooks;
@@ -74,7 +76,29 @@ class BookDetails {
         designOfThings.borrowBook();  // This should show that the book is already borrowed
 
         // Demonstrate returning a borrowed book
+//        System.out.println("\nReturned the book: ");
         designOfThings.returnBook();  // Return the first book
         designOfThings.returnBook();  // Try returning the book again, should show that it's already in the library
+
+        // Ask the user to input the details of a new book
+        Scanner input = new Scanner(System.in);
+
+        // Prompt the user to enter book details
+        System.out.print("\nEnter the title of the new book: ");
+        String title = input.nextLine();
+        System.out.print("Enter the author of the new book: ");
+        String author = input.nextLine();
+        System.out.print("Enter the ISBN of the new book: ");
+        String isbn = input.nextLine();
+
+        // Create a new book based on user input
+        Book newBook = new Book(title, author, isbn);
+
+        // Print the details of the newly created book
+        System.out.println("\nNew book details:");
+        System.out.println("Title: " + newBook.tittle + ", Author: " + newBook.author + ", ISBN: " + newBook.isbn);
+        System.out.println("Total number of books now: " + Book.getTotalNoOfBooks());
+
+        input.close();  // Close the scanner to prevent resource leaks
     }
 }
