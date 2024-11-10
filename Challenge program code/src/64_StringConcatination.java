@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 class StringConcatination {
     public static void main(String[] args) {
         // Declare and initialize variables for first and last names
@@ -12,5 +14,6 @@ class StringConcatination {
 
         // Convert fullName to uppercase and print it
         System.out.println(fullName.toUpperCase());
+
     }
 }
