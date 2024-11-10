@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-class Example1 {
+class DoWhile {
     public static void main(String[] args) {
         // Create a Scanner object to read input
         Scanner input = new Scanner(System.in);
 
-        // Uncommented Code: Using do-while loop to validate age input
+        // Uncommented Code: Using do-while loop to validate age input_
 
         // Variable to store the user's age
         int age;
