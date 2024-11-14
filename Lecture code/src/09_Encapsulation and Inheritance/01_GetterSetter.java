@@ -1,4 +1,4 @@
-public class Cars {
+class Cars {
     private String color,model;
     private double fuelLevel;
     private long costOfPurchage;
