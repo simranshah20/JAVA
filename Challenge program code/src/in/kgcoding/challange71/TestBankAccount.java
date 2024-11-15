@@ -1,4 +1,4 @@
-package in.kgcoding.challange78;
+package in.kgcoding.challange71;
 
 public class TestBankAccount {
     public static void main(String[] args) {
