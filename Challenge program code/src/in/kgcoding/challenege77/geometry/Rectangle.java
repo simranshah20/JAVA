@@ -1,4 +1,4 @@
-package in.kgcoding.geometry;
+package in.kgcoding.challenege77.geometry;
 
 public class Rectangle {
     public int length , breadth;
